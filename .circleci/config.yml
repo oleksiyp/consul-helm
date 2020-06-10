@@ -12,18 +12,11 @@ jobs:
           command: bats ./test/unit
   unit-helm3:
     docker:
-      # This image is built from test/docker/Test.dockerfile
-      - image: hashicorpdev/consul-helm-test:0.3.0
+      - image: hashicorpdev/consul-helm-test:0.4.0
 
     steps:
       - checkout
 
-      - run:
-          name: Install Helm 3
-          command: |
-            wget https://get.helm.sh/helm-v3.2.1-linux-amd64.tar.gz
-            tar -zxvf helm-v3.2.1-linux-amd64.tar.gz
-            mv linux-amd64/helm /usr/local/bin/helm
       - run:
           name: Run Unit Tests
           command: bats ./test/unit

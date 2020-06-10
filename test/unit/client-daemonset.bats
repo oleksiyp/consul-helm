@@ -394,14 +394,12 @@ load _helpers
 
 @test "client/DaemonSet: gossip encryption disabled in client DaemonSet when clients are disabled" {
   cd `chart_dir`
-  local actual=$(helm template \
+  assert_empty helm template \
       -s templates/client-daemonset.yaml  \
       --set 'client.enabled=false' \
       --set 'global.gossipEncryption.secretName=foo' \
       --set 'global.gossipEncryption.secretKey=bar' \
-      . | tee /dev/stderr |
-      yq 'length > 0' | tee /dev/stderr)
-  [ "${actual}" = "false" ]
+      .
 }
 
 @test "client/DaemonSet: gossip encryption disabled in client DaemonSet when secretName is missing" {
