@@ -183,6 +183,10 @@ spec:
                       address = "${WAN_ADDR}"
                       port = ${WAN_PORT}
                     }
+                    wan_ipv4 {
+                      address = "${WAN_ADDR}"
+                      port = ${WAN_PORT}
+                    }
                   }
                   checks = [
                     {

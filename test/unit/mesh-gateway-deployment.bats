@@ -648,6 +648,10 @@ service {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
     }
+    wan_ipv4 {
+      address = "${WAN_ADDR}"
+      port = ${WAN_PORT}
+    }
   }
   checks = [
     {
@@ -700,6 +704,10 @@ service {
       port = 8443
     }
     wan {
+      address = "${WAN_ADDR}"
+      port = ${WAN_PORT}
+    }
+    wan_ipv4 {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
     }
@@ -758,6 +766,10 @@ service {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
     }
+    wan_ipv4 {
+      address = "${WAN_ADDR}"
+      port = ${WAN_PORT}
+    }
   }
   checks = [
     {
@@ -806,6 +818,10 @@ service {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
     }
+    wan_ipv4 {
+      address = "${WAN_ADDR}"
+      port = ${WAN_PORT}
+    }
   }
   checks = [
     {
@@ -849,6 +865,10 @@ service {
       port = 8443
     }
     wan {
+      address = "${WAN_ADDR}"
+      port = ${WAN_PORT}
+    }
+    wan_ipv4 {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
     }
@@ -901,6 +921,10 @@ service {
       port = 8443
     }
     wan {
+      address = "${WAN_ADDR}"
+      port = ${WAN_PORT}
+    }
+    wan_ipv4 {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
     }
@@ -962,6 +986,10 @@ service {
       port = 8443
     }
     wan {
+      address = "${WAN_ADDR}"
+      port = ${WAN_PORT}
+    }
+    wan_ipv4 {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
     }
@@ -1032,6 +1060,10 @@ service {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
     }
+    wan_ipv4 {
+      address = "${WAN_ADDR}"
+      port = ${WAN_PORT}
+    }
   }
   checks = [
     {
@@ -1078,6 +1110,10 @@ service {
       port = 8443
     }
     wan {
+      address = "${WAN_ADDR}"
+      port = ${WAN_PORT}
+    }
+    wan_ipv4 {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
     }
@@ -1149,6 +1185,10 @@ service {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
     }
+    wan_ipv4 {
+      address = "${WAN_ADDR}"
+      port = ${WAN_PORT}
+    }
   }
   checks = [
     {
@@ -1195,6 +1235,10 @@ service {
       port = 8443
     }
     wan {
+      address = "${WAN_ADDR}"
+      port = ${WAN_PORT}
+    }
+    wan_ipv4 {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
     }
