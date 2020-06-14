@@ -175,10 +175,6 @@ spec:
                   port = {{ .Values.meshGateway.containerPort }}
                   address = "${POD_IP}"
                   tagged_addresses {
-                    lan {
-                      address = "${POD_IP}"
-                      port = {{ .Values.meshGateway.containerPort }}
-                    }
                     wan {
                       address = "${WAN_ADDR}"
                       port = ${WAN_PORT}

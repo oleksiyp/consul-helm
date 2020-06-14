@@ -640,10 +640,6 @@ service {
   port = 8443
   address = "${POD_IP}"
   tagged_addresses {
-    lan {
-      address = "${POD_IP}"
-      port = 8443
-    }
     wan {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
@@ -695,10 +691,6 @@ service {
   port = 8443
   address = "${POD_IP}"
   tagged_addresses {
-    lan {
-      address = "${POD_IP}"
-      port = 8443
-    }
     wan {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
@@ -750,10 +742,6 @@ service {
   port = 8443
   address = "${POD_IP}"
   tagged_addresses {
-    lan {
-      address = "${POD_IP}"
-      port = 8443
-    }
     wan {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
@@ -844,10 +832,6 @@ service {
   port = 8443
   address = "${POD_IP}"
   tagged_addresses {
-    lan {
-      address = "${POD_IP}"
-      port = 8443
-    }
     wan {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
@@ -896,10 +880,6 @@ service {
   port = 8443
   address = "${POD_IP}"
   tagged_addresses {
-    lan {
-      address = "${POD_IP}"
-      port = 8443
-    }
     wan {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
@@ -957,10 +937,6 @@ service {
   port = 8443
   address = "${POD_IP}"
   tagged_addresses {
-    lan {
-      address = "${POD_IP}"
-      port = 8443
-    }
     wan {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
@@ -1024,10 +1000,6 @@ service {
   port = 8443
   address = "${POD_IP}"
   tagged_addresses {
-    lan {
-      address = "${POD_IP}"
-      port = 8443
-    }
     wan {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
@@ -1073,10 +1045,6 @@ service {
   port = 8443
   address = "${POD_IP}"
   tagged_addresses {
-    lan {
-      address = "${POD_IP}"
-      port = 8443
-    }
     wan {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
@@ -1141,10 +1109,6 @@ service {
   port = 8443
   address = "${POD_IP}"
   tagged_addresses {
-    lan {
-      address = "${POD_IP}"
-      port = 8443
-    }
     wan {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
@@ -1190,10 +1154,6 @@ service {
   port = 8443
   address = "${POD_IP}"
   tagged_addresses {
-    lan {
-      address = "${POD_IP}"
-      port = 8443
-    }
     wan {
       address = "${WAN_ADDR}"
       port = ${WAN_PORT}
